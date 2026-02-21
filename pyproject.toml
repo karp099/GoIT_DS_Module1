@@ -1,0 +1,14 @@
+[project]
+name = "assistantbot"
+version = "0.1.0"
+description = "Bot that can save telephone number and birthday"
+authors = [
+    {name = "Yehor Karpenko",email = "karpenko.ky@gmail.com"}
+]
+requires-python = "3.14"
+package-mode = false
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
